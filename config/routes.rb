@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get '/sponsors',            to: 'static_pages#sponsors'
   get '/venue',               to: 'static_pages#venue'
 
+  get '/signup',              to: 'users#new'
+  post '/signup',             to: 'users#create'
+  
   resources :microposts
   resources :users
 end

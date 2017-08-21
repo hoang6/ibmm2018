@@ -1,0 +1,69 @@
+<section class="site-content site-section">
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-4 col-lg-3">
+                <aside class="sidebar site-block">
+                    <!-- Store Menu -->
+                    <!-- Store Menu functionality is initialized in js/app.js -->
+                    <div class="sidebar-block">
+                        <ul class="store-menu">
+                            <li><%= link_to "Home", root_path %></li>
+                            <li><%= link_to "Organizers/Committee", organizers_path %></li>
+                            <li><%= link_to "Plenary Speakers", speakers_path %></li>
+                            <li><%= link_to "Abstract Submission", abstract_submission_path %></li>
+                            <li><%= link_to "Publication", publication_path %></li>
+                            <li><%= link_to "Registration", registration_path %></li>
+                            <li><%= link_to "Conference Venue", venue_path %></li>
+                            <li><%= link_to "Hotel Reservation", '#' %></li>
+                            <li><%= link_to "Sponsors", sponsors_path %></li>
+                            <li><%= link_to "Contact Us", contact_path %></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-block">
+                      <div class="clearfix">
+                          <span class="h4"><strong class="text-success">About San Antonio</strong><br></span>
+                          <div class="block" style="margin-top: 10px;">
+                              <%= link_to image_tag("placeholders/photos/SA_thumbnail.jpg", alt: "About San Antonio"),
+                                        'https://en.wikipedia.org/wiki/San_Antonio' %>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="sidebar-block">
+                      <div class="clearfix">
+                          <span class="h4"><strong class="text-success">Conference Venue</strong><br></span>
+                          <div class="block" style="margin-top: 10px;">
+                              <%= link_to image_tag("placeholders/photos/venue.jpg", alt: "Hilton Palacio del Rio, San Antonio, TX"),
+                                        'http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/index.html' %>
+                          </div>
+                          <h4><b>Hilton Palacio del Rio</b></h4>
+                          <p>Address: 200 S Alamo St, San Antonio, TX 78205<br>
+                             Phone: (210) 222-1400
+                          </p>
+                      </div>
+                    </div>
+                    <div class="sidebar-block">
+                      <div class="clearfix">
+                          <span class="h4"><strong class="text-success">Nearby Attractions</strong><br></span>
+                          <div class="block" style="margin-top: 10px;">
+                              <%= link_to image_tag("placeholders/photos/Alamo.png", alt: "Alamo Mission in San Antonio"),
+                                        'http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html' %>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- END Store Menu -->
+
+                </aside>
+            </div>
+            <!-- END Sidebar -->
+
+            <!-- Main -->
+            <div class="col-md-8 col-lg-9">
+                <div class="row" data-toggle="lightbox-gallery">
+                    <%= yield %>
+                </div>
+            </div>
+            <!-- END Main -->
+        </div>
+    </div>
+</section>
