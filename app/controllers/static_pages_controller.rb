@@ -11,9 +11,6 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def organizers
-  end
-
   def speakers
   end
 
@@ -30,5 +27,14 @@ class StaticPagesController < ApplicationController
   end
 
   def abstract_submission
+  end
+
+  def program_committee
+  end
+
+  def local_committee
+  end
+
+  def committee_membership
   end
 end
