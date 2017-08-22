@@ -29,12 +29,6 @@ class StaticPagesController < ApplicationController
   def abstract_submission
   end
 
-  def program_committee
-  end
-
-  def local_committee
-  end
-
-  def committee_membership
+  def committees
   end
 end
