@@ -1,0 +1,74 @@
+<% provide(:title, "Hotel Reservation Information") %>
+
+<h1><%= yield(:title) %></h1>
+<%= image_tag("placeholders/photos/hotel_logo_2.png", alt: "Hilton Palacio del Rio") %>
+<h4><b>HILTON PALACIO DEL RIO HOTEL</b></h4>
+<h5>Address: 200 S Alamo St, San Antonio, TX 78205</h5>
+<h5>Phone: (210) 222-1400</h5>
+<h5>
+  <%= link_to "Maps & Directions", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/maps-directions/index.html", style: "color: #3b5998;" %>
+</h5>
+<h5>
+  <%= link_to "Make Reservation", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/accommodations/index.html", style: "color: #3b5998;" %>
+</h5>
+<h4>Negotiated hotel room cost: $159/day with private balconies in every room</h4>
+<div class="widget">
+  <div class="">
+    <div id="widget-carousel4" class="carousel slide remove-margin">
+      <div class="carousel-inner">
+        <div class="active item">
+          <%= image_tag("placeholders/photos/room_1.png", alt: "Room Photo") %>
+        </div>
+        <div class="item">
+          <%= image_tag("placeholders/photos/room_2.png", alt: "Room Photo") %>
+        </div>
+        <div class="item">
+          <%= image_tag("placeholders/photos/room_3.png", alt: "Room Photo") %>
+        </div>
+        <div class="item">
+          <%= image_tag("placeholders/photos/room_4.png", alt: "Room Photo") %>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#widget-carousel4" data-slide="prev">
+        <span><i class="fa fa-chevron-left"></i></span>
+      </a>
+      <a class="right carousel-control" href="#widget-carousel4" data-slide="next">
+        <span><i class="fa fa-chevron-right"></i></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<h4>Guest Room</h4>
+<p>Each room features a private balcony for panoramic
+views of the city. Every room also features our
+Hilton Serenity CollectionTM bedding and the latest
+technology, including large, high definition TV’s and
+high speed internet access. The spacious standard
+rooms come with one King bed or two Full beds.
+</p>
+<p>Each room includes the following:</p>
+<ul>
+  <li>Large, 37” plasma screen, high definition TV with On-Demand entertainment</li>
+  <li>Hilton SerenityTM Collection bedding</li>
+  <li>Deluxe bath amenities</li>
+  <li>Ample work station</li>
+  <li>Iron/Ironing board and hair dryer</li>
+  <li>Cofeemaker</li>
+  <li>HDTV jack pack connectivity</li>
+  <li>High-speed internet access</li>
+  <li>In-room safe</li>
+</ul>
+
+<h4>Hilton Fitness</h4>
+<p>Outfitted with the latest generation of cardio and
+strength training equipment, Hilton Fitness takes
+a personalized approach to help you feel your best
+during your stay. Guests must be at least 16 years
+of age to use the facilities.
+</p>
+
+<h4>Outdoor Swimming Pool</h4>
+<p>Enjoy the view! Our rooftop pool is situated on the
+beautiful River Walk.
+</p>

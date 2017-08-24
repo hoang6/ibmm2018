@@ -12,10 +12,12 @@
                             <li><%= link_to "Abstract Submission", abstract_submission_path %></li>
                             <li><%= link_to "Registration", registration_path %></li>
                             <li><%= link_to "Organizers/Committees", committees_path %></li>
-                            <li><%= link_to "Plenary Speakers", speakers_path %></li>
+                            <li><%= link_to "Invited Speakers", speakers_path %></li>
+                            <li><%= link_to "Program", program_path %></li>
                             <li><%= link_to "Publication", publication_path %></li>
                             <li><%= link_to "Conference Venue", venue_path %></li>
-                            <li><%= link_to "Hotel Reservation", '#' %></li>
+                            <li><%= link_to "Hotel Reservation", hotel_path %></li>
+                            <li><%= link_to "Day Trip Included", day_trip_path %></li>
                             <li><%= link_to "Sponsors", sponsors_path %></li>
                             <li><%= link_to "Contact Us", contact_path %></li>
                         </ul>
@@ -27,6 +29,7 @@
                               <%= link_to image_tag("placeholders/photos/SA_thumbnail.jpg", alt: "About San Antonio"),
                                         'https://en.wikipedia.org/wiki/San_Antonio' %>
                           </div>
+                          <h5><%= link_to "More information", "https://en.wikipedia.org/wiki/San_Antonio", style: "color: #3b5998" %><h5>
                       </div>
                     </div>
                     <div class="sidebar-block">
@@ -49,6 +52,7 @@
                               <%= link_to image_tag("placeholders/photos/Alamo.png", alt: "Alamo Mission in San Antonio"),
                                         'http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html' %>
                           </div>
+                          <h5><%= link_to "More information", "http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html", style: "color: #3b5998" %><h5>
                       </div>
                     </div>
                     <!-- END Store Menu -->

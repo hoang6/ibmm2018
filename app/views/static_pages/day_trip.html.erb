@@ -1,0 +1,31 @@
+<% provide(:title, "Day Trip") %>
+
+<h1><%= yield(:title) %></h1>
+<h4><b>Natural Bridge Caverns</b></h4>
+<div class="widget">
+  <div class="">
+    <div id="widget-carousel4" class="carousel slide remove-margin">
+      <div class="carousel-inner">
+        <div class="active item">
+          <%= image_tag("placeholders/photos/cave2.jpg", alt: "Natural Bridge Caverns") %>
+        </div>
+        <div class="item">
+          <%= image_tag("placeholders/photos/cave1.jpg", alt: "Natural Bridge Caverns") %>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#widget-carousel4" data-slide="prev">
+        <span><i class="fa fa-chevron-left"></i></span>
+      </a>
+      <a class="right carousel-control" href="#widget-carousel4" data-slide="next">
+        <span><i class="fa fa-chevron-right"></i></span>
+      </a>
+    </div>
+  </div>
+</div>
+<br>
+<ul>
+  <li>Unique speleothems and geological formation, a registered United State National Natural Landmark</li>
+  <li>28 miles from San Antonio</li>
+  <li>Ticket and transportation costs are included in registration fee</li>
+  <li>For more details, <%= link_to "click here!", "http://www.naturalbridgecaverns.com/(S(nmpyg11qisj14wl0vzdjmn20))/Index.aspx", style: "color: #3b5998;" %></li>
+</ul>

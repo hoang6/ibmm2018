@@ -14,6 +14,9 @@ class StaticPagesController < ApplicationController
   def speakers
   end
 
+  def program
+  end
+
   def publication
   end
 
@@ -30,5 +33,8 @@ class StaticPagesController < ApplicationController
   end
 
   def committees
+  end
+
+  def day_trip
   end
 end
