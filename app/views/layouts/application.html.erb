@@ -37,7 +37,7 @@
             <!-- Header -->
             <%= render 'layouts/header' %>
             <!-- END Header -->
-            
+
             <% flash.each do |message_type, message| %>
               <div class="alert alert-<%= message_type %>"><%= message %></div>
             <% end %>
@@ -56,11 +56,5 @@
 
         <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
         <a href="#" id="to-top"><i class="fa fa-angle-up"></i></a>
-
-        <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/app.js"></script>
     </body>
 </html>
