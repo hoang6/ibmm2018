@@ -2,16 +2,18 @@
 
 <h1><%= yield(:title) %></h1>
 <%= image_tag("placeholders/photos/hotel_logo_2.png", alt: "Hilton Palacio del Rio") %>
+<h4>
+  <%= link_to "Maps & Directions", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/maps-directions/index.html", style: "color: red;" %>
+</h4>
+<h4>
+  <%= link_to "Start Hotel Reservation", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/accommodations/index.html", style: "color: red;" %>
+</h4>
+
 <h4><b>HILTON PALACIO DEL RIO HOTEL</b></h4>
 <h5>Address: 200 S Alamo St, San Antonio, TX 78205</h5>
 <h5>Phone: (210) 222-1400</h5>
-<h5>
-  <%= link_to "Maps & Directions", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/maps-directions/index.html", style: "color: #3b5998;" %>
-</h5>
-<h5>
-  <%= link_to "Make Reservation", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/accommodations/index.html", style: "color: #3b5998;" %>
-</h5>
-<h4>Negotiated hotel room cost: $159/day with private balconies in every room</h4>
+<h5>Negotiated hotel room cost: <b>$159/day</b> with private balconies in every room</h5>
+<h5>No deadline for hotel reservation. However, special rates are guaranteed for the first <b>100</b> room reservations only</h5>
 <div class="widget">
   <div class="">
     <div id="widget-carousel4" class="carousel slide remove-margin">
