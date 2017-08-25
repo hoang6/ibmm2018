@@ -29,20 +29,20 @@
                               <%= link_to image_tag("placeholders/photos/SA_thumbnail.jpg", alt: "About San Antonio"),
                                         'https://en.wikipedia.org/wiki/San_Antonio' %>
                           </div>
-                          <h5><%= link_to "Learn more", "https://en.wikipedia.org/wiki/San_Antonio", style: "color: #3b5998" %><h5>
+                          <h5><%= link_to "Learn more", "https://en.wikipedia.org/wiki/San_Antonio", style: "color: red;" %><h5>
                       </div>
                     </div>
                     <div class="sidebar-block">
                       <div class="clearfix">
                           <span class="h4"><strong class="text-success">Conference Venue</strong><br></span>
                           <div class="block" style="margin-top: 10px;">
-                              <%= link_to image_tag("placeholders/photos/venue.jpg", alt: "Hilton Palacio del Rio, San Antonio, TX"),
-                                        'http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/index.html' %>
+                              <%= link_to image_tag("placeholders/photos/venue.jpg", alt: "Hilton Palacio del Rio, San Antonio, TX"), venue_path%>
                           </div>
                           <h4><b>Hilton Palacio del Rio</b></h4>
                           <p>Address: 200 S Alamo St, San Antonio, TX 78205<br>
                              Phone: (210) 222-1400
                           </p>
+                          <h5><%= link_to "Learn more", venue_path, style: "color: red;" %><h5>
                       </div>
                     </div>
                     <div class="sidebar-block">
@@ -52,7 +52,7 @@
                               <%= link_to image_tag("placeholders/photos/Alamo.png", alt: "Alamo Mission in San Antonio"),
                                         'http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html' %>
                           </div>
-                          <h5><%= link_to "Learn more", "http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html", style: "color: #3b5998" %><h5>
+                          <h5><%= link_to "Learn more", "http://vacationidea.com/destinations/best-things-to-do-in-san-antonio-tx.html", style: "color: red;" %><h5>
                       </div>
                     </div>
                     <!-- END Store Menu -->
