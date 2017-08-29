@@ -13,8 +13,9 @@ Rails.application.routes.draw do
   get '/sponsors',            to: 'static_pages#sponsors'
   get '/venue',               to: 'static_pages#venue'
   get '/hotel',               to: 'static_pages#hotel'
-  get '/day_trip',            to: 'static_pages#day_trip'
-
+  get '/field_trip',          to: 'static_pages#field_trip'
+  get '/transportation',      to: 'static_pages#transportation'
+  get '/presentation',        to: 'static_pages#presentation'
   get '/signup',              to: 'users#new'
   post '/signup',             to: 'users#create'
 
