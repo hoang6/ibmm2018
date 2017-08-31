@@ -1,19 +1,28 @@
 <% provide(:title, "Hotel Reservation Information") %>
 
 <h1><%= yield(:title) %></h1>
-<%= image_tag("placeholders/photos/hotel_logo_2.png", alt: "Hilton Palacio del Rio") %>
+<%= image_tag("placeholders/photos/hotel_logo_3.png", alt: "Hilton Palacio del Rio", style: "width: 300px;") %>
+<br>
+<h4><b>HILTON PALACIO DEL RIO HOTEL</b></h4>
+<h5>Address: 200 S Alamo St, San Antonio, TX 78205</h5>
+<h5>Phone: (210) 222-1400</h5>
+<h5>Negotiated hotel room cost: <b>$159/day</b> with private balconies in every room</h5>
+<h5 style="margin-bottom: 20px;">No deadline for hotel reservation. However, special rates are guaranteed for the first <b>100</b> room reservations only</h5>
 <h4>
   <%= link_to "Maps & Directions", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/maps-directions/index.html", style: "color: red;" %>
 </h4>
 <h4>
   <%= link_to "Start Hotel Reservation", "http://www3.hilton.com/en/hotels/texas/hilton-palacio-del-rio-SATPDHF/accommodations/index.html", style: "color: red;" %>
 </h4>
-
-<h4><b>HILTON PALACIO DEL RIO HOTEL</b></h4>
-<h5>Address: 200 S Alamo St, San Antonio, TX 78205</h5>
-<h5>Phone: (210) 222-1400</h5>
-<h5>Negotiated hotel room cost: <b>$159/day</b> with private balconies in every room</h5>
-<h5>No deadline for hotel reservation. However, special rates are guaranteed for the first <b>100</b> room reservations only</h5>
+<h4>Instruction for reservation</h4>
+<ul>
+  <li>Click the link above to reach Hilton hotel reservation page<li>
+  <li>On the right-up corner, select arrival and departure time, and click "CHECK ROOMS & RATES"</li>
+  <li>Next page, on the bottom of the left column titled as "Narrow your results", click "Have a special code?"</li>
+  <li>Type "IBM" as group code</li>
+  <li>​Rate plan of "Ion Beam Modification" will appear for your selection</li>
+</ul>
+<br>
 <div class="widget">
   <div class="">
     <div id="widget-carousel4" class="carousel slide remove-margin">
