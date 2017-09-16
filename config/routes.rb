@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   root 'static_pages#home'
 
   get '/help',                to: 'static_pages#help'
@@ -16,8 +18,13 @@ Rails.application.routes.draw do
   get '/field_trip',          to: 'static_pages#field_trip'
   get '/transportation',      to: 'static_pages#transportation'
   get '/presentation',        to: 'static_pages#presentation'
+
   get '/signup',              to: 'users#new'
   post '/signup',             to: 'users#create'
+
+  get '/login',              to: 'sessions#new'
+  post '/login',             to: 'sessions#create'
+  delete '/logout',          to: 'sessions#destroy'
 
   resources :microposts
   resources :users
