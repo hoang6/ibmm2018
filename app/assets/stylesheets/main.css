@@ -1482,9 +1482,9 @@ fieldset[disabled] .btn-default.active:focus {
 }
 
 .btn-primary {
-    background-color: #6ad2eb;
+    background-color: #3B5998;
     border-color: #1bbae1;
-    color: #ffffff;
+    color: #fff;
 }
 
 .btn-primary.btn-alt {
@@ -1493,9 +1493,9 @@ fieldset[disabled] .btn-default.active:focus {
 }
 
 .btn-primary:hover {
-    background-color: #1bbae1;
+    background-color: #3B5998;
     border-color: #1593b3;
-    color: #ffffff;
+    color: #fffc00;
 }
 
 .btn-primary:focus,
