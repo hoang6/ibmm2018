@@ -91,5 +91,5 @@ Rails.application.configure do
 
   # Fix css background-image loading issue with Heroku
   config.serve_static_assets = true
-  config.assets.compile = true
+  config.assets.compile = false
 end
