@@ -2,7 +2,6 @@
 
 <div class="push-bit">
     <div class="widget">
-      <div class="">
         <div id="widget-carousel4" class="carousel slide remove-margin">
           <div class="carousel-inner">
             <div class="active item">
@@ -20,6 +19,9 @@
             <div class="item">
               <%= image_tag("placeholders/photos/SA_5.jpg", alt: "SA Skyline") %>
             </div>
+            <div class="item">
+              <%= image_tag("placeholders/photos/group_photo.png", alt: "SA Skyline") %>
+            </div>
           </div>
           <a class="left carousel-control" href="#widget-carousel4" data-slide="prev">
             <span><i class="fa fa-chevron-left"></i></span>
@@ -28,7 +30,6 @@
             <span><i class="fa fa-chevron-right"></i></span>
           </a>
         </div>
-      </div>
     </div>
     <br>
     <div style="text-align: center;"><%= image_tag("placeholders/photos/deadlines.png", alt: "IBMM 2018 Deadlines") %></div>
@@ -94,11 +95,13 @@
         <!-- <span class="h3"><strong class="text-success" style="color:red;">Conference hotel rooms are still available!</strong><br></span> -->
         <span class="h3"><strong class="text-success" style="color:red;">NIMB proceeding paper submission is now open, <a href="https://www.elsevier.com/journals/nuclear-instruments-and-methods-in-physics-research-b/0168-583X/submitting-your-paper">click here</a> for submission. The submission deadline is September 1, 2018.  Please include your IBMM abstract number in the cover letter.</strong><br></span>
         <br>
-        <span class="h3"><strong class="text-success" style="color:red;">The conference can be downloaded <a href="https://www.elsevier.com/journals/nuclear-instruments-and-methods-in-physics-research-b/0168-583X/submitting-your-paper">here</a>.</strong><br></span>
+        <span class="h3"><strong class="text-success" style="color:red;">The conference photo can be downloaded <a href="https://drive.google.com/file/d/1CRC6RM-zLROcLISvfrpHgx11nmmOPh29/view?usp=sharing">here</a>.</strong><br></span>
     </div>
     <br>
 
-    <div style="text-align: center; width: 10px;"><%= image_tag("placeholders/photos/group_photo.png", alt: "IBMM 2018 Group Photo") %></div>
+    <div class="clearfix">
+      <%= image_tag("placeholders/photos/group_photo.png", alt: "IBMM 2018 Group Photo", style: "max-width: 100%")%>
+    </div>
     <br>
 
     <div class="clearfix">
