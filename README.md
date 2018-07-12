@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Homepage of the IBMM 2018 21st INTERNATIONAL CONFERENCE ON ION BEAM MODIFICATION OF MATERIALS in JUNE 24 – 29, 2018 in SAN ANTONIO, TEXAS, USA
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
